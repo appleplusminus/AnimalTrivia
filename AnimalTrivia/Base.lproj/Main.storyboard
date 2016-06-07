@@ -56,6 +56,10 @@
                                 <rect key="frame" x="20" y="457" width="30" height="30"/>
                                 <state key="normal" image="C"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54j-mJ-mKb">
+                                <rect key="frame" x="156" y="538" width="63" height="63"/>
+                                <state key="normal" image="nextButton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82592168749999995" green="1" blue="0.30435148220000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -70,6 +74,7 @@
         <image name="A" width="30" height="30"/>
         <image name="B" width="30" height="30"/>
         <image name="C" width="30" height="30"/>
+        <image name="nextButton" width="63" height="63"/>
         <image name="platypus" width="254" height="254"/>
     </resources>
 </document>
