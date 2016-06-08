@@ -74,8 +74,11 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="aButton" destination="hM5-bN-uva" id="45V-S9-F10"/>
                         <outlet property="aLabel" destination="ubw-SM-baE" id="wd6-IF-TuP"/>
+                        <outlet property="bButton" destination="KJ9-iJ-DOr" id="mgo-uF-oVY"/>
                         <outlet property="bLabel" destination="UOc-92-Z2L" id="ebJ-cL-02j"/>
+                        <outlet property="cButton" destination="arS-1U-rGb" id="Nkh-7K-ITA"/>
                         <outlet property="cLabel" destination="4Ny-G3-9LB" id="3B1-Lr-ato"/>
                     </connections>
                 </viewController>

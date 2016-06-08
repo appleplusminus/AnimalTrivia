@@ -16,8 +16,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var cLabel: UILabel!
     
+    @IBOutlet weak var aButton: UIButton!
     
+    @IBOutlet weak var bButton: UIButton!
     
+    @IBOutlet weak var cButton: UIButton!
     
     
     
