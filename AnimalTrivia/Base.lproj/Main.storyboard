@@ -80,6 +80,9 @@
                         <outlet property="bLabel" destination="UOc-92-Z2L" id="ebJ-cL-02j"/>
                         <outlet property="cButton" destination="arS-1U-rGb" id="Nkh-7K-ITA"/>
                         <outlet property="cLabel" destination="4Ny-G3-9LB" id="3B1-Lr-ato"/>
+                        <outlet property="correctCImageView" destination="4Qq-Dg-4Po" id="QwX-Zc-bwz"/>
+                        <outlet property="incorrectAImageView" destination="5gt-XC-nsl" id="jXr-bP-OBx"/>
+                        <outlet property="incorrectBImageView" destination="cLb-5V-6zd" id="Nbk-rl-crX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
