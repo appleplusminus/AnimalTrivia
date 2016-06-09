@@ -38,6 +38,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func aButtonPressed(sender: UIButton) {
+        
+    }
+    
+    @IBAction func bButtonPressed(sender: UIButton) {
+        
+    }
+    
+    @IBAction func cButtonPressed(sender: UIButton) {
+        
+    }
+    
 }
 
