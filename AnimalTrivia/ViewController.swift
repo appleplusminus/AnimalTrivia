@@ -39,7 +39,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func aButtonPressed(sender: UIButton) {
-        
+        incorrectAImageView.hidden = false
+        aButton.hidden = true
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
