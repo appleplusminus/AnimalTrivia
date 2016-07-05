@@ -77,6 +77,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54j-mJ-mKb" userLabel="Next Button">
                                 <rect key="frame" x="156" y="538" width="63" height="63"/>
                                 <state key="normal" image="nextButton"/>
+                                <connections>
+                                    <segue destination="6AZ-IX-Q70" kind="show" id="M7Z-bh-yCT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82592168749999995" green="1" blue="0.30435148220000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,6 +100,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="379.5" y="428.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rGt-Yw-vbW">
+            <objects>
+                <viewController id="6AZ-IX-Q70" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w1r-nP-CA1"/>
+                        <viewControllerLayoutGuide type="bottom" id="bqU-Jf-psl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oYE-tI-gcp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.82592168749999995" green="1" blue="0.30435148220000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iev-Qw-wyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884.5" y="428.5"/>
         </scene>
     </scenes>
     <resources>

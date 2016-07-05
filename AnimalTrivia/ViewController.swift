@@ -41,16 +41,25 @@ class ViewController: UIViewController {
     @IBAction func aButtonPressed(sender: UIButton) {
         incorrectAImageView.hidden = false
         aButton.hidden = true
+        bButton.enabled = false
+        cButton.enabled = false
+        aLabel.textColor = UIColor.redColor()
     }
     
     @IBAction func bButtonPressed(sender: UIButton) {
         incorrectBImageView.hidden = false
         bButton.hidden = true
+        aButton.enabled = false
+        cButton.enabled = false
+        bLabel.textColor = UIColor.redColor()
     }
     
     @IBAction func cButtonPressed(sender: UIButton) {
         correctCImageView.hidden = false
         cButton.hidden = true
+        aButton.enabled = false
+        bButton.enabled = false
+        cLabel.textColor = UIColor.greenColor()
     }
     
 }
